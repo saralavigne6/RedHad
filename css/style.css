@@ -9,7 +9,8 @@ html, body{
 }
 
 .mother-grid {
-    padding: 85px 0px;
+    /*padding: 85px 0px;*/
+    padding: 20px 0px 85px 0px;
     background: url(../images/m-banner.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size:cover;
@@ -28,8 +29,10 @@ html, body{
     background: #e45c5f;
     position: absolute;
     width: 65%;
-    top: 50px;
+    top: 0px;
     left: 18%;
+
+
 }
 span.menu{
     display:none;
@@ -244,6 +247,15 @@ span.ph {
     background-color: #000;
 }
 
+.carousel .item1 {
+    height: 300px;
+    background-color: #000;
+}
+
+.carousel-caption .h1 {
+    margin-top: -110px;
+    font-size: 35px;
+}
 .carousel .item img {
     width: 100%;
 }
@@ -631,25 +643,27 @@ span.line-y {
 
 
 
+
+
 /*--media quries start here--*/
 @media(max-width:1440px){
     .top-strip {
         width: 75%;
-        top: 50px;
+        top: 0px;
         left: 13%;
     }
 }
 @media(max-width:1336px){
     .top-strip {
         width: 80%;
-        top: 50px;
+        top: 0px;
         left: 10%;
     }
 }
 @media(max-width:1280px){
     .top-strip {
         width: 84%;
-        top: 50px;
+        top: 0px;
         left: 8%;
     }
 }
@@ -666,6 +680,15 @@ span.line-y {
         font-size: 18px;
 
     }
+    .carousel .item1 {
+        height: 250px;
+        background-color: #000;
+    }
+
+    .carousel-caption .h1 {
+        margin-top: -100px;
+        font-size: 30px;
+    }
 }
 
 @media(max-width:1024px){
@@ -676,7 +699,8 @@ span.line-y {
         height: 400px;
     }
     .molli-grids {
-        margin: 0px 16px 0px 0px;
+        /*margin: 0px 16px 0px 0px;*/
+        margin: 0px 8.5px 0px 8.5px;
     }
     span.line-x {
         width: 155px;
@@ -698,7 +722,15 @@ span.line-y {
     .carousel-caption p {
         margin-bottom: 110px;
         font-size: 15px;
+    }
+    .carousel .item1 {
+        height: 230px;
+        background-color: #000;
+    }
 
+    .carousel-caption .h1 {
+        margin-top: -86px;
+        font-size: 24px;
     }
 }
 @media(max-width:768px) {
@@ -732,7 +764,7 @@ span.line-y {
         font-size: 30px;
     }
     .title-main {
-        padding: 45px 0px 30px 0px;
+        padding: 68px 0px 18px 0px;
     }
     .title-main a h1 {
         font-size: 30px;
@@ -811,7 +843,8 @@ span.line-y {
         font-size: 30px;
     }
     .molli-grids {
-        margin: 0px 12px 0px 0px;
+        /*margin: 0px 12px 0px 0px;*/
+        margin: 0px 6.3px 0px 6.3px;
     }
     .molli-grids h4 {
         font-size: 15px;
@@ -835,6 +868,15 @@ span.line-y {
         height: 285px;
     }
 
+    .carousel .item1 {
+        height: 200px;
+        background-color: #000;
+    }
+
+    .carousel-caption .h1 {
+        margin-top: -75px;
+        font-size: 21px;
+    }
 }
 
 @media(max-width:640px) {
@@ -889,13 +931,18 @@ span.line-y {
         padding: 2em 0px;
     }
     .molli-grids {
-        margin: 0px 9px 0px 0px;
+        /*margin: 0px 9px 0px 0px;*/
+        margin: 0px 4px 0px 6.5px;
     }
     .molli-grids h4 {
         font-size: 12px;
     }
     .callbacks_nav {
         top: 68%;
+    }
+    .carousel-caption h1 {
+        font-size: 20px;
+
     }
 
 }
@@ -906,6 +953,15 @@ span.line-y {
     .carousel .item {
         height: 265px;
     }
+
+    .carousel .item1 {
+        height: 180px;
+        background-color: #000;
+    }
+    .carousel-caption .h1 {
+        margin-top: -67px;
+        font-size: 18px;
+    }
 }
 @media(max-width:604px) {
     .carousel {
@@ -914,6 +970,7 @@ span.line-y {
     .carousel .item {
         height: 255px;
     }
+
 }
 @media(max-width:583px) {
     .carousel {
@@ -968,7 +1025,7 @@ span.line-y {
     .top-strip {
         width: 91%;
         left: 4.5%;
-        top: 55px;
+        top: 0px;
     }
 
     .title-main a h1 {
@@ -976,11 +1033,8 @@ span.line-y {
     }
 
     .title-main {
-        padding: 35px 0px 16px 0px;
-    }
+        padding: 35px 0px 10px 0px;
 
-    .title-main {
-        padding: 35px 0px 16px 0px;
     }
 
     span.menu {
@@ -1008,6 +1062,14 @@ span.line-y {
     }
     .carousel .item {
         height: 190px;
+    }
+    .carousel .item1 {
+        height: 100px;
+        background-color: #000;
+    }
+    .carousel-caption .h1 {
+        margin-top: -40px;
+        font-size: 14px;
     }
     .nunc-top h3 {
         font-size: 16px;
@@ -1049,15 +1111,24 @@ span.line-y {
         width: 46%;
     }
     .callbacks_nav {
-        top: 40%;
+        top: 50%;
     }
 }
+
+
+
 @media(max-width:458px) {
     .carousel {
         height:180px;
     }
     .carousel .item {
         height: 180px;
+    }
+    .carousel-caption h1 {
+        font-size: 16px;
+    }
+    .carousel-caption {
+        bottom: 10px;
     }
 }
 @media(max-width:439px) {
@@ -1075,6 +1146,14 @@ span.line-y {
     .carousel .item {
         height: 160px;
     }
+    .carousel .item1 {
+        height: 120px;
+        background-color: #000;
+    }
+    .carousel-caption .h1 {
+        margin-top: -40px;
+        font-size: 14px;
+    }
 }
 @media(max-width:397px) {
     .carousel {
@@ -1082,6 +1161,14 @@ span.line-y {
     }
     .carousel .item {
         height: 150px;
+    }
+    .carousel .item1 {
+        height: 100px;
+        background-color: #000;
+    }
+    .carousel-caption .h1 {
+        margin-top: -28px;
+        font-size: 12px;
     }
 }
 @media(max-width:375px) {
@@ -1092,6 +1179,8 @@ span.line-y {
         height: 140px;
     }
 }
+
+
 @media(max-width:357px) {
     .carousel {
         height:130px;
@@ -1190,6 +1279,17 @@ span.line-y {
     }
     .molli-grids h4 {
         font-size: 11px;
+    }
+    .carousel-caption h1 {
+        font-size: 13px;
+    }
+    .carousel .item1 {
+        height: 90px;
+        background-color: #000;
+    }
+    .carousel-caption .h1 {
+        margin-top: -40px;
+        font-size: 13px;
     }
 
 }
