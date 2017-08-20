@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>重庆工商大学小红帽党建基地</title>
+    <title>CTBU小红帽党建基地日常活动</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -11,18 +11,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
     </script>
-
     <style>
-    .header ul li.index a {
-        color: #e45c5f;
-        text-decoration:none;
-    }
-    @media(max-width:768px) {
-        .header ul li.index a {
-            color: #FFCF8D;
-            text-decoration: none;
+        .header ul li.daily a {
+             color: #e45c5f;
+             text-decoration:none;
+         }
+
+        @media(max-width:768px) {
+            .header ul li.daily a {
+                color: #FFCF8D;
+                text-decoration:none;
+            }
         }
-    }
+        .d-img img {
+            transition-duration: 0.4s;
+        }
+
+        .d-img img:hover {
+
+            transform:scale(1.2);
+            -webkit-transform:scale(1.2);
+            -moz-transform:scale(1.2);
+            -o-transform:scale(1.2);
+            -ms-transform:scale(1.2);
+
+        }
     </style>
 
 </head>
@@ -58,15 +71,17 @@
             </div>
             <!--title end here-->
 
+
+
             <!--header start here-->
             <div class="header">
                 <div class="navg">
                     <span class="menu"> <img src="images/icon.png" alt=""/></span>
                     <ul class="res">
-                        <li class="li1 index"><a href="index.html">主页</a></li><!--去掉li之间的空格
+                        <li class="li1"><a href="index.html">主页</a></li><!--去掉li之间的空格
                         --><li class=""><a href="history.html">基地简介及历史</a></li><!--
                         --><li class=""><a href="glory.html">所获荣誉</a></li><!--
-                        --><li class=""><a href="daily.html">日常活动</a></li><!--
+                        --><li class="daily"><a href="daily.html">日常活动</a></li><!--
                         --><li class=""><a href="visit.html">领导视察</a></li><!--
 
                         --><li class=""><a href="education.html">党员教育及培养</a></li><!--
@@ -86,134 +101,104 @@
             <!--header end here-->
 
 
-            <!--banner start here-->
-            <!--中间banner轮播-->
-            <div id="ad-carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#ad-carousel" data-slide-to="1"></li>
-                    <li data-target="#ad-carousel" data-slide-to="2"></li>
-                    <li data-target="#ad-carousel" data-slide-to="3"></li>
-                    <li data-target="#ad-carousel" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/4.jpg" alt="1 slide">
-
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>2014年6月4日吴刚副市长视察小红帽</h1>
-
-                                <!--<p></p>-->
-
-
-                            </div>
+            <!--service1 start here-->
+            <div class="service d-img">
+                <h4 style="font-family: 黑体;">校园小红帽</h4>
+                <div class="service-top">
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s1.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>06年党员服务维修站校园维修</a></h3>
+                            <p>06年家协前身党员服务维修站在校园展开义修活动</p>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="images/2.jpg" alt="2 slide">
-
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>重庆工商大学计信学院小红帽家电维修协会社区服务</h1>
-
-                                <!--<p></p>-->
-
-
-                            </div>
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s2.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>拒绝课桌文化</a></h3>
+                            <p>拒绝课桌文化，常青藤义协组织进行教室清洁活动</p>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="images/3.jpg" alt="3 slide">
-
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>重庆感动校园颁奖</h1>
-
-                                <!--<p></p>-->
-
-
-                            </div>
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s3.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>走进高校</a></h3>
+                            <p>小红帽家电维修协会组织成员走进理工大学，联手在校园举办</p>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="images/1.jpg" alt="4 slide">
-
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>重庆日报头版报道原义协会长袁滔同学救助老人</h1>
-
-                                <!--<p></p>-->
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/5.jpg" alt="5 slide">
-
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>校长荣誉奖学金</h1>
-
-                                <!--<p></p>-->
-
-
-                            </div>
-                        </div>
-                    </div>
+                    <div class="clearfix"> </div>
                 </div>
-                <a class="left carousel-control" href="#ad-carousel" data-slide="prev"><span
-                        class="glyphicon glyphicon-chevron-left"></span></a>
-                <a class="right carousel-control" href="#ad-carousel" data-slide="next"><span
-                        class="glyphicon glyphicon-chevron-right"></span></a>
-                <div class="clearfix"> </div>
-            </div>
-            <!--banner end here-->
 
-            <!--nunc dig start here-->
-            <div class="nuncdig">
-                <div class="nuncdig-main">
-                    <div class="nunc-top">
-                        <h3>党建基地组成</h3>
-                        <p>计算机科学与信息工程学院</p>
-                    </div>
-                    <div class="nunc-bott">
-                        <div class="col-md-4 nunc-bott-grid">
-                            <div class="headind-text">
-                                <h3>小红帽家电维修协会</h3>
-                                <h4>One</h4>
-                            </div>
-                            <p>“家协”成立于1987年，原渝州大学的家电维修部发展而来。30年来，协会秉承“在服务中锻炼自我，在锻炼中自我成才”的宗旨，走进高校和社区义务维修。</p>
-                            <div class="nunc-bwn">
-                                <a href="history.html">更多</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 nunc-bott-grid">
-                            <div class="headind-text">
-                                <h3>计信常青藤义协</h3>
-                                <h4>Two</h4>
-                            </div>
-                            <p>常青藤义协是以“为学校，为他人，为社会服务”为目标的志愿服务组织。自成立以来，一直奉献爱心，服务他人。形成了“有时间做义工，有困难找义工”的良好风气！</p>
-                            <div class="nunc-bwn">
-                                <a href="video.html">更多</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 nunc-bott-grid">
-                            <div class="headind-text">
-                                <h3>计信党员服务站</h3>
-                                <h4>Three</h4>
-                            </div>
-                            <p>计信党员服务站是学院党员教育和培养中心。有意愿入党的学生定期在这里值班，学习党建知识。同时配合学校，学院组织参加一些党员培养活动。提高对党的认识认知。</p>
-                            <div class="nunc-bwn">
-                                <a href="video.html">更多</a>
-                            </div>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                </div>
             </div>
-            <!--nunc dig end here-->
+
+        <!--service1 end here-->
+
+            <!--service2 start here-->
+            <div class="service d-img">
+                <h4 style="font-family: 黑体;">社区小红帽</h4>
+                <div class="service-top">
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s4.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>走进江南枫亭小区</a></h3>
+                            <p>小红帽家电维修协会走进江南风亭社区义修活动</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s5.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>走进乐一融合幼儿园</a></h3>
+                            <p>常青藤义协组织走进乐一融合幼儿园开展课程</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s6.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>走进涂山养老院</a></h3>
+                            <p>常青藤义协组织走进涂山养老院慰问孤寡老人</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+
+            <!--service2 end here-->
+
+
+            <!--service3 start here-->
+            <div class="service d-img">
+                <h4 style="font-family: 黑体;">网络小红帽</h4>
+                <div class="service-top">
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s7.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>为什么电脑卡到爆</a></h3>
+                            <p>小红帽家电维修协会微信公众号推出为什么电脑会卡的文章截图</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s8.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>硬件知识你知道吗</a></h3>
+                            <p>小红帽家电维修协会微信公众号推出电脑硬件基础知识文章截图</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 service-grid">
+                        <a><img src="images/s9.jpg" alt=""/></a>
+                        <div class="service-gd-bott">
+                            <h3><a>义务维修 温暖你我</a></h3>
+                            <p>小红帽家电维修协会组织成员走进弹子石社区开展义修活动</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+
+            <!--service3 end here-->
+
+
 
 
             <!--molli start here-->
@@ -335,27 +320,7 @@
             <div class="clearfix"> </div>
             <!--molli end here-->
 
-            <!--divider banner-->
-            <div id="ad-carousel" class="carousel slide carousel1" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item1">
-                        <img style="width:100%;" class="img-responsive" src="images/divider1.jpg" alt="1 slide">
 
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1 class="h1">CTBU小红帽建党基地，我们在路上。</h1>
-
-                                <!--<p></p>-->
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!--divider banner- end -->
         </div>
 
         <!--footer-start-->
@@ -387,7 +352,7 @@
                 </div>
             </div>
         </div>
-     <!--footer-end-->
+        <!--footer-end-->
 
     </div>
 </div>
